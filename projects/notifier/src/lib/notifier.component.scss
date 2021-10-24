@@ -1,0 +1,43 @@
+.title-content {
+    font-size: 1.1rem;
+}
+.sub-content {
+    font-size: 0.9rem;
+    min-width: 150px;
+    word-wrap: break-word;
+}
+.logo-outline-style {
+    height: 32px;
+    width: 32px;
+    border: 2px white solid;
+}
+.logo-dm {
+    width: 70px;
+}
+
+::ng-deep .mat-snack-bar-container {
+    background-color: white;
+    padding: 0 0;
+}
+
+// BOOTSTRAP CSS
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }
+.text-dark { color: black; }
+.text-white { color: white; }
+.mt-3 { margin-top: 1rem; }.mt-1 { margin-top: .25rem; }.m-0 { margin: 0; }
+.pl-2 { padding-left: .5rem; }.p-0 { padding: 0; }
+.rounded-left {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.rounded-right {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+.rounded { border-radius: .25rem; }
+.rounded-circle { border-radius: 50%; }
+.bg-success { background-color: #28A745; }
+.bg-warning { background-color: #d39e00; }
+.bg-danger { background-color: #dc3545; }
+.bg-white { background-color: white; }

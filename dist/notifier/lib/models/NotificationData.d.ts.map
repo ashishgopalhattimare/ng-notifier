@@ -1,0 +1,1 @@
+{"version":3,"file":"NotificationData.d.ts","sourceRoot":"","sources":["../../../../projects/notifier/src/lib/models/NotificationData.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,uBAAuB,CAAC;AAE3D,MAAM,WAAW,gBAAgB;IAC7B,OAAO,EAAE,MAAM,EAAE,CAAC;IAClB,MAAM,EAAE,kBAAkB,CAAC;IAC3B,KAAK,EAAE,MAAM,CAAC;CACjB"}
