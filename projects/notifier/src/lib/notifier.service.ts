@@ -4,13 +4,13 @@ import { MatSnackBar, MatSnackBarHorizontalPosition, MatSnackBarVerticalPosition
 import { NotifierComponent } from './notifier.component';
 
 type NotificationError = {
-  errorCode: string;
+  errorCode?: string;
   errorMessages: string;
-  timestamp: number;
-  details: ErrorDetails[];
+  timestamp?: number;
+  details?: ErrorDetails[];
 };
 type ErrorDetails = {
-  field: string;
+  field?: string;
   message: string;
 };
 
@@ -51,7 +51,7 @@ export class NotifierService {
     });
   }
 
-  getNotifierDuration(status: NotificationStatus): number {
+  getNotifierDuration(status: NotificationStatus | unknown): number {
     switch (status) {
       case NotificationStatus.SUCCESS:
       case NotificationStatus.INFO:
@@ -68,7 +68,7 @@ export class NotifierService {
 
   getMessageListFromError(error: NotificationError): string[] {
     return [error?.errorMessages || ''].concat(
-      error?.details?.map(x => `${x.field ? `${x.field}: ` : ''} ${x.message}`) || []
+      error?.details?.map(x => `${x.field ? `${x.field}: ` : ''}${x.message}`) || []
     );
   }
 }
