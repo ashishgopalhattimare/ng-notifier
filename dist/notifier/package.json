@@ -1,0 +1,22 @@
+{
+  "name": "@techpleiad/notifier",
+  "version": "2.0.4",
+  "peerDependencies": {
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0",
+    "@angular/cdk": "^11.0.0",
+    "@angular/flex-layout": "^11.0.0-beta.33",
+    "@angular/material": "^11.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/techpleiad-notifier.umd.js",
+  "module": "fesm2015/techpleiad-notifier.js",
+  "es2015": "fesm2015/techpleiad-notifier.js",
+  "esm2015": "esm2015/techpleiad-notifier.js",
+  "fesm2015": "fesm2015/techpleiad-notifier.js",
+  "typings": "techpleiad-notifier.d.ts",
+  "metadata": "techpleiad-notifier.metadata.json",
+  "sideEffects": false
+}
