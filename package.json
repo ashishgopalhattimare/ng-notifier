@@ -7,11 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "build-notifier": "ng build notifier && cd dist/notifier && npm pack",
-    "publish": "ng build notifier && cd dish/notifier && npm publish",
+    "build-notifier": "ng build notifier --prod && cd dist/notifier && npm pack",
+    "publish-build": "npm i && ng build notifier --prod && cd dist/notifier && npm pack && npm publish --access=public",
     "update-angular": "ng update @angular/core@11 @angular/cli@11 @angular/router@11 @angular/material@11 @angular/flex-layout@11.0.0-beta.33"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.11",
     "@angular/cdk": "^12.2.11",

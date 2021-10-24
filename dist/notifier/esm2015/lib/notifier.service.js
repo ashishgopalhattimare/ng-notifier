@@ -20,7 +20,7 @@ export class NotifierService {
         this.snackBar.openFromComponent(NotifierComponent, {
             horizontalPosition: this.horizontalPosition,
             verticalPosition: this.verticalPosition,
-            duration: this.getNotifDuration(status),
+            duration: this.getNotifierDuration(status),
             data: {
                 message: messageList,
                 status,
@@ -28,7 +28,7 @@ export class NotifierService {
             }
         });
     }
-    getNotifDuration(status) {
+    getNotifierDuration(status) {
         switch (status) {
             case NotificationStatus.SUCCESS:
             case NotificationStatus.INFO:
