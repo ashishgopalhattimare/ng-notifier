@@ -1,7 +1,0 @@
-/*
- * Public API Surface of notifier
- */
-export * from './lib/notifier.service';
-export * from './lib/notifier.component';
-export * from './lib/notifier.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25vdGlmaWVyL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyx3QkFBd0IsQ0FBQztBQUN2QyxjQUFjLDBCQUEwQixDQUFDO0FBQ3pDLGNBQWMsdUJBQXVCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5vdGlmaWVyXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbm90aWZpZXIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9ub3RpZmllci5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbm90aWZpZXIubW9kdWxlJztcbiJdfQ==
