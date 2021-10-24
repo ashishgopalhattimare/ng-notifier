@@ -7,8 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "build-notifier": "ng build notifier && cd dist/notifier && npm pack",
-    "publish": "ng build notifier && cd dish/notifier && npm publish",
+    "build-notifier": "ng build notifier --prod && cd dist/notifier && npm pack",
+    "publish-build": "npm i && ng build notifier --prod && cd dist/notifier && npm pack && npm publish --access=public",
     "update-angular": "ng update @angular/core@12 @angular/cli@12 @angular/router@12 @angular/material@12 @angular/flex-layout@12.0.0-beta.35"
   },
   "private": true,
