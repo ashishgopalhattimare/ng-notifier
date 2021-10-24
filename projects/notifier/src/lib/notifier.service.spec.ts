@@ -72,9 +72,6 @@ describe('NotifierService', () => {
         { message: 'detail-message' }
       ]
     })).toEqual(['error-message', 'detail-message']);
-
-    expect(service.getMessageListFromError({
-    })).toEqual(['']);
   });
 
   it('should set timeout based on notification success boolean', () => {
