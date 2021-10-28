@@ -1,0 +1,81 @@
+.btn-square-img {
+  font-size: 24px;
+  height: 25px;
+  width: 25px;
+}
+.btn-square {
+  height: 40px;
+  width: 40px;
+}
+
+.call-to-action {
+  border-radius: 6px;
+  color: #FFFFFF;
+  background-color: #E20074;
+  &:hover {
+    background-color: #D1006C;
+  }
+  &:active {
+    background-color: #BD0061;
+  }
+  &:focus {
+    background-color: #D1006C;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+// DEUTSCHE TELEKOM BUTTON SPECIFIC CSS : OUTLINE BUTTON
+.outline-action {
+  border-radius: 6px;
+  color: #262626;
+  border-color: #ECECEC;
+  background-color: #FFFFFF;
+  &:hover {
+    background-color: #ECECEC;
+  }
+  &:active {
+    background-color: #DBDBDB;
+  }
+  &:focus {
+    background-color: #ECECEC;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+.outline-action-dark {
+  border-radius: 6px;
+  color: #262626;
+  border-color: black;
+  background-color: #FFFFFF;
+  &:hover {
+    background-color: #ECECEC;
+  }
+  &:active {
+    background-color: #DBDBDB;
+  }
+  &:focus {
+    background-color: #ECECEC;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+.transparent-outline-action {
+  border-radius: 6px;
+  color: #262626;
+  border-color: transparent;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
