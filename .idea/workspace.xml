@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bb2e84e-2eed-4f6d-84cf-0c4a7ff5852a" name="Changes" comment="" />
+    <list default="true" id="7bb2e84e-2eed-4f6d-84cf-0c4a7ff5852a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/ng-package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/config/data.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/config/sentry.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/config/suppressed.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/data.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/data.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/log.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/log.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/sentry-handler.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/sentry-handler.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/shared-services.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/suppress-exception.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/lib/suppress-exception.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/public-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/tsconfig.lib.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/tsconfig.lib.prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shared-services/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/button/src/lib/button.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/button/src/lib/button.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/button/src/lib/button.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/button/src/lib/button.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/button/src/lib/button.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/button/src/lib/button.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/button/tsconfig.lib.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/button/tsconfig.lib.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +59,30 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (button)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/projects/button/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$/projects/button" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="Tests (notifier)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/projects/notifier/karma.conf.js" />
       <working-directory value="$PROJECT_DIR$/projects/notifier" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests (sample)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/projects/sample/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$/projects/sample" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests (shared-services)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/projects/shared-services/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$/projects/shared-services" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
@@ -59,6 +111,10 @@
       <updated>1635079309277</updated>
       <workItem from="1635079311655" duration="311000" />
       <workItem from="1635440212206" duration="28000" />
+      <workItem from="1635445652900" duration="4000" />
+      <workItem from="1635445664298" duration="4000" />
+      <workItem from="1635763667440" duration="4000" />
+      <workItem from="1635924581840" duration="2000" />
     </task>
     <servers />
   </component>

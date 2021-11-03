@@ -21,6 +21,10 @@
       "notifier": [
         "dist/notifier/notifier",
         "dist/notifier"
+      ],
+      "shared-services": [
+        "dist/shared-services/shared-services",
+        "dist/shared-services"
       ]
     },
     "importHelpers": true,
