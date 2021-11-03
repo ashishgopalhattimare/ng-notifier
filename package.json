@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "build-notifier": "ng build notifier --prod && cd dist/notifier && npm pack",
     "build-button": "ng build button --prod && cd dist/button && npm pack",
+    "build-shared-services": "ng build shared-services --prod && cd dist/shared-services && npm pack",
     "publish-build": "npm i && ng build notifier --prod && cd dist/notifier && npm pack && npm publish --access=public",
     "update-angular": "ng update @angular/core@11 @angular/cli@11 @angular/router@11 @angular/material@11 @angular/flex-layout@11.0.0-beta.33"
   },

@@ -1,6 +1,6 @@
 {
-  "name": "shared-services",
-  "version": "0.0.1",
+  "name": "@codex-lab/shared-services",
+  "version": "11.0.0",
   "peerDependencies": {
     "@angular/common": "^11.0.0",
     "@angular/core": "^11.0.0"
